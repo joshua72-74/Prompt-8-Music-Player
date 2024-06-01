@@ -1,0 +1,175 @@
+<!-- Prompt: Music Player
+
+Design a music player. It could be browser based or an app (i.e. Pandora, Spotify, SoundCloud, etc.) or in a standalone product like in a car dashboard, jukebox, etc.
+ 
+Consider the controls, placements, imagery such as the artist or album cover, etc. Also, consider the device type that's playing the music. A dashboard in a tour bus, a smartwatch, or via a web browser. Each device type will have different requirements, features, and restrictions to consider. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="container-1">
+            <h1><i class="ri-music-fill"></i>Groovy</h1>
+            <h3>MENU</h3>
+            <ul>
+                <li><i class="ri-compass-fill"></i>Explore</li>
+                <li><i class="ri-volume-down-fill"></i>Genres</li>
+                <li><i class="ri-album-fill"></i>Albums</li>
+                <li><i class="ri-mic-fill"></i>Artists</li>
+                <li><i class="ri-rfid-line"></i>Radio</li>
+            </ul>
+
+            <h3>LIBRARY</h3>
+            <ul>
+                <li><i class="ri-arrow-go-back-line"></i>Recents</li>
+                <li><i class="ri-disc-fill"></i>Albums</li>
+                <li><i class="ri-heart-fill"></i>Favourite</li>
+                <li><i class="ri-folder-3-fill"></i>Local</li>
+            </ul>
+
+            <h3>PLAYLIST</h3>
+            <ul>
+                <li><i class="ri-folder-music-fill"></i>Create New</li>
+                <li><i class="ri-swap-3-fill"></i>Design Flow</li>
+                <li><i class="ri-flower-fill"></i>Best of 2020</li>
+                <li><i class="ri-heart-add-fill"></i>Indian Jams</li>
+            </ul>
+
+            <div class="image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSccnJisjLoUJYv2czoqSBelcfOQRdK6tmzQ&s" alt="">
+                <span>Google Homepod</span>
+            </div>
+
+            <div><i class="ri-play-circle-fill"></i>Playing on Device</div>
+
+
+        </div>
+    
+        <div class="container-2">
+            
+            <nav>
+                <ul>
+                    <li>Music</li>
+                    <li>Podcast</li>
+                    <li>Live</li>
+                </ul>
+
+                <input type="text" placeholder="&#xF002; Type here to search" style="font-family:Arial, FontAwesome" />
+                <!-- we have used awesome font here -->
+
+                <div>
+                    <i class="ri-notification-3-fill"></i>
+                    <i class="ri-settings-2-line"></i>
+                </div>
+
+
+                <div><img src="1.jpg" alt="">Joshua Joy</div>
+
+                <div class="box-1">
+                    <ul>
+                        <li>Trending New Hits</li>
+                        <li>O Sajni re</li>
+                        <li>Arijit Singh - 30M views</li>
+                        <li><button>Listen now </button><i class="ri-heart-add-fill"></i></i></li>
+                    </ul>
+                </div>
+
+                <i class="side-arrow ri-arrow-right-circle-fill"></i>
+
+            </nav>
+
+
+            <div class="container-parent">
+
+                <div class="container-a">
+                    <div class="container-a1">
+                        <h2>Top Artists</h2>
+
+                        <div class="boxofa1">
+                            <figure>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Gr6Khd_4El8xv8eU27gGvafzBujXLvIlKw&s">
+                                <figcaption>Sonu Nigam</figcaption>
+                            </figure>
+
+                            <figure>
+                                <img src="https://i.scdn.co/image/ab6761610000517436a7262247318ff0f1ad00da">
+                                <figcaption>Shreya Ghoshal</figcaption>
+                            </figure>
+
+                            <figure>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPsHXR_rPdNKeVy-WYNTZPT-JMhoSzmsZ6nQ&s">
+                                <figcaption>Ed Sheeran</figcaption>
+                            </figure>
+
+                            <figure>
+                                <img src="https://in.bmscdn.com/iedb/artist/images/website/poster/large/sushin-shyam-1072344-1695702230.jpg">
+                                <figcaption>Sushin Shyam</figcaption>
+                            </figure>
+
+                            <figure>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLHMpFYHynhtXTtF_M5y_wPvqTb_dL-SOEsg&s">
+                                <figcaption>Lata Mangeshkar</figcaption>
+                            </figure>
+
+                        </div>
+
+                    </div>
+        
+
+
+                    <div class="container-a2">
+                        <div class="container-a2a">
+                            <h2>Genres</h2>
+                            <div>
+                                <span>Hip hop</span>
+                                <span>Classical</span>
+                                <span>Regional</span>
+                            </div>
+
+                            <div>
+                                <span>Alternate Indie</span>
+                                <span>Dance Beat</span>
+                                <span>Devotional</span>
+                            </div>                         
+                                
+                
+                        </div>
+
+                        <div class="container-a2b">
+                                <h2>Top Charts</h2>
+                                <div><i class="ri-play-circle-fill"></i>Lag Ja Gale</div>
+                                <div><i class="ri-play-circle-fill"></i>Shape of You</div>
+                                <div><i class="ri-play-circle-fill"></i>Illuminati</div>
+                                <div><i class="ri-play-circle-fill"></i>Itni si Baat</div>
+                        </div>
+                    </div>
+
+                </div>            
+    
+                <div class="container-b">
+                    <marquee behavior="" direction=""><h1><i class="ri-play-circle-fill"></i>Play this song</h1></marquee>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>
